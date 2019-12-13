@@ -22,7 +22,8 @@ int Graph::get(const int& i, const int& j) const {
 }
 
 void Graph::set(const int& i, const int& j, const int& value) {
-	matrix[i][j] = value;
+	if ((i >= 0) && (j >= 0) && (i <= size()) && (j <= size())) 
+		matrix[i][j] = value;
 }
 
 void Graph::loadFromFile(const std::string& file) {

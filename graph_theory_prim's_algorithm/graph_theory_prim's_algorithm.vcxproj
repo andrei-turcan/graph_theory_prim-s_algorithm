@@ -131,6 +131,12 @@
     <ClCompile Include="..\..\graph_theory_prim%27s_algorithm\graph_theory_prim%27s_algorithm\main.cpp" />
     <ClCompile Include="..\..\graph_theory_prim%27s_algorithm\graph_theory_prim%27s_algorithm\primsAlgorithm.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\graph_theory_prim%27s_algorithm\graph_theory_prim%27s_algorithm\matrix_examples\G16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\graph_theory_prim%27s_algorithm\graph_theory_prim%27s_algorithm\matrix_examples\G16.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
